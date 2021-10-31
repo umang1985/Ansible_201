@@ -7,7 +7,7 @@
   tasks:
     - name: Copy the file
       copy:    
-        src: ./files/information.txt
+        src: ./files/test.txt
         dest: /files/
         backup: yes
       register: content_changed
